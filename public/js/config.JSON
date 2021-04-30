@@ -1,0 +1,13 @@
+{
+  "maxSize": 50,
+  "data": [
+    {
+      "boardSize": 50,
+      "rewardPt": 10,
+      "deductionPt": 5,
+      "highlightDuration": 800,
+      "passingScore": 100,
+      "totalAttempt": 10
+    }
+  ]
+}

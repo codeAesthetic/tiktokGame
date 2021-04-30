@@ -1,0 +1,55 @@
+<html>
+
+<head>
+  <title>Tik Tok</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet"> 
+  <link rel="stylesheet" href="./public/styles/style.css">
+  <link rel="stylesheet" href="./public/styles/modal.css">
+  <link rel="stylesheet" href="./public/styles/scoreboard.css">
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-inverse">
+    <a class="navbar-brand" href="#">Tik Tok </a>
+  </nav>
+  <!-- score board -->
+  <div>
+    <div class="scorewrapper">
+      <div class="btncontainer">
+        <h2>Your Score</h2>
+        <div class="btn" id="myScore">0</div>
+      </div>
+      <!-- main game area -->
+      <div class="mainFrame">
+        <div class="mainText"><h3 class='text'> Click on </h3><div class="target highlight"></div><h3 class='text'>(Target) to score point.</h3></div>
+        <table id='board'></table>
+      </div>
+      <div class="btncontainer">
+        <h2>Passing Score</h2>
+        <div class="btn" id="passingScore">0</div>
+      </div>
+    </div>
+  </div>
+  <!-- congrats modal -->
+  <div class="wrapper hide">
+    <div id="backdrop"></div>
+    <div class="modal modal--congratulations">
+      <div class="modal-top">
+        <img class="modal-icon u-imgResponsive"
+          src="https://dl.dropboxusercontent.com/s/e1t2hhowjcrs7f5/100daysui_100icon.png" alt="Trophy" />
+        <div class="modal-header">Congratulations</div>
+        <div class="modal-subheader">You have successfully completed the game</div>
+      </div>
+      <div class="modal-bottom">
+        <button id="nextBtn" class="modal-btn u-btn u-btn--share" onclick="initGame()">Next</button>
+        <button id="restartGame" class="modal-btn u-btn u-btn--share" onclick="loadGame()">Restart Game</button>
+      </div>
+    </div>
+  </div>
+</body>
+<script src='public/js/utils.js'></script>
+<script src='public/js/main.js'></script>
+
+</html>
