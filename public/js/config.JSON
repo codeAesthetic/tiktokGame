@@ -1,13 +1,20 @@
 {
-  "maxSize": 50,
-  "data": [
+  "config": [
     {
-      "boardSize": 50,
+      "row": 5,
+      "col": 5,
       "rewardPt": 10,
       "deductionPt": 5,
       "highlightDuration": 800,
-      "passingScore": 100,
-      "totalAttempt": 10
+      "passingScore": 50
+    },
+    {
+      "row": 10,
+      "col": 10,
+      "rewardPt": 10,
+      "deductionPt": 5,
+      "highlightDuration": 600,
+      "passingScore": 100
     }
   ]
 }
