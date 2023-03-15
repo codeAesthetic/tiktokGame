@@ -14,15 +14,3 @@
 4. Every stage will have a passing score (Given in the configuration).
 5. If the user reaches the passing score, the next stage of the game will be triggered.
 6. Once the user passes the last stage, we will have to congratulate him with some animation.
-
-#
-
-## Note:
-
-##### Use only native/vanilla JS. Please refrain from using any external plugins, frameworks or libraries.
-
-##### Code quality should be at a production code level.
-
-##### Implementation should be working without any errors.
-
-#
